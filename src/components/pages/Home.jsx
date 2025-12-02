@@ -258,9 +258,9 @@ const taskCounts = {
                   <ApperIcon name="Menu" className="h-5 w-5" />
                 </Button>
 
-                <div>
+<div>
                   <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-500 bg-clip-text text-transparent">
-TaskMaster Ultra Pro
+TaskMaster Ultra Pro Max
                   </h1>
                   <p className="text-gray-600">
 {tasks.filter(t => {
@@ -298,10 +298,10 @@ TaskMaster Ultra Pro
         </header>
 
         {/* Task Content */}
-        <main className="flex-1 p-6">
+<main className="flex-1 p-6">
           {sortedTasks.length === 0 && searchQuery === '' && selectedCategory === 'all' && filters.status === 'all' && filters.priority.length === 0 ? (
             <Empty
-title="Welcome to TaskMaster Ultra Pro!"
+title="Welcome to TaskMaster Ultra Pro Max!"
               message="Start organizing your tasks and boost your productivity. Create your first task to begin your journey to better task management."
               actionLabel="Create your first task"
               onAction={handleCreateTask}
